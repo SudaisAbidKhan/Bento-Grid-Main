@@ -1,0 +1,247 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Flow+Circular&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Petrona:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  background-color: #f5f5f5;
+  font-family: "DM Sans", sans-serif;
+  margin: 20px 0px 0px 155px;
+}
+
+.star {
+  background-color: #7a50da;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 10px;
+  color: white;
+  width: 500px;
+  text-align: center;
+}
+.star img {
+  width: 180px;
+  margin-top: -20px;
+  margin-bottom: -5px;
+}
+.star p {
+  font-size: 18px;
+}
+h1 {
+  font-size: 60px;
+  font-weight: 500;
+}
+.highlight {
+  color: #ffcb6f;
+}
+.italic {
+  font-style: italic;
+}
+
+.manage {
+  border-radius: 10px;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  padding: 20px;
+  background-color: white;
+}
+.manage img {
+  width: 300px;
+  overflow-x: hidden;
+  background-color: white;
+}
+.manage h2 {
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 25px;
+  background-color: white;
+}
+
+.maintain {
+  border-radius: 10px;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  padding: 20px;
+  background-color: #ffcb6f;
+}
+.maintain img {
+  width: 200px;
+  overflow-x: hidden;
+  background-color: #ffcb6f;
+  margin-top: -10px;
+}
+.maintain h2 {
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 25px;
+  background-color: #ffcb6f;
+}
+
+.schedule {
+  background-color: #ded0fc;
+  border-radius: 10px;
+  padding: 20px;
+  overflow: hidden;
+  width: 200px;
+  height: 526px;
+}
+.schedule img {
+  width: 300px;
+  margin-left: 30px;
+}
+.schedule p {
+  font-weight: 500;
+  font-size: 18px;
+}
+.schedule h2 {
+  font-size: 30px;
+  line-height: 25px;
+}
+
+.grow {
+  background-color: #7a50da;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border-radius: 10px;
+  color: #fff;
+  width: 462px;
+  height: 211px;
+  gap: 15px;
+}
+.grow img {
+  width: 210px;
+}
+.grow h2 {
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.aud {
+  background-color: #fff;
+  width: 240px;
+  height: 248px;
+  border-radius: 10px;
+  margin-top: -13px;
+}
+.aud img {
+  width: 150px;
+}
+.aud h2 {
+  font-size: 50px;
+  margin-bottom: -19px;
+  margin-top: 12px;
+}
+
+.create {
+  background-color: #fdede2;
+  border-radius: 10px;
+  font-size: 30px;
+  width: 202px;
+  height: 391px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: left;
+  line-height: 40px;
+  padding: 10px 20px 20px 20px;
+}
+.create img {
+  width: 150px;
+}
+.create h2 {
+  font-weight: 500;
+}
+.quick {
+  color: #7a50da;
+  font-style: italic;
+}
+
+.content {
+  flex-direction: column;
+  text-align: left;
+  background-color: #ffcb6f;
+  padding: 20px;
+  border-radius: 10px;
+  width: 202px;
+  height: 368px;
+}
+.content img {
+  width: 200px;
+  /* position: absolute;
+  top: 626px;
+  left: 35px; */
+}
+.content h2 {
+  font-size: 40px;
+  line-height: 40px;
+  font-weight: 500;
+  margin: 11px 0px 10px 0px;
+}
+
+@media (max-width: 500px) {
+  .star {
+    width: 388px;
+    padding: 0px 0px 20px 0px;
+  }
+  .star h1{
+    width: 338px;
+  }
+  .star img{
+    width: 200px;
+  }
+  .manage {
+    width: 350px;
+    height: 148px;
+  }
+  .maintain {
+    width: 350px;
+    height: 205px;
+  }
+  .schedule {
+    width: 350px;
+    height: 469px;
+  }
+  .schedule p {
+    width: 285px;
+    text-align: center;
+    margin: 23px 0px 0px 38px;
+  }
+  .grow {
+    width: 350px;
+    flex-direction: column;
+    height: 405px;
+    justify-content: center;
+    align-items: center;
+  }
+  .grow h2{
+    width: 234px;
+    text-align: center;
+  }
+  .grow img {
+    width: 280px;
+  }
+  .aud {
+    width: 387px;
+    height: 206px;
+    padding-left: 20px;
+  }
+  .aud img{
+    width: 210px;
+  }
+  .create {
+    width: 350px;
+    height: 300px;
+    border: 1px solid #7a50da;
+  }
+  .create img{
+    width: 226px;
+  }
+  .content {
+    width: 350px;
+    height: 320px;
+  }
+}
